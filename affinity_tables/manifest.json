@@ -1,0 +1,41 @@
+{
+  "model": "facebook/nllb-moe-54b",
+  "checkpoint_revision": null,
+  "shape": [
+    128,
+    128
+  ],
+  "dtype": "float32",
+  "files": {
+    "affinity_nllb_3.pt": {
+      "decoder_layer": 3,
+      "size_bytes": 66751,
+      "sha256": "edca0a7cc3c06f81fdf30448341c16bccef31e86973aab35fb9fd8c5310c1920"
+    },
+    "affinity_nllb_7.pt": {
+      "decoder_layer": 7,
+      "size_bytes": 66751,
+      "sha256": "b078c99b257bebb393e3ee37f5050c17485c8aedf99cbae1cc0bb4d8ad55fe4c"
+    },
+    "affinity_nllb_11.pt": {
+      "decoder_layer": 11,
+      "size_bytes": 66756,
+      "sha256": "02b57a7a27b843df0dc7aa1e2619471234f63d23fd08b5626d617eda35160246"
+    },
+    "affinity_nllb_15.pt": {
+      "decoder_layer": 15,
+      "size_bytes": 66756,
+      "sha256": "aaf1d0052db26109d124dbc37e3584201aaa4a820089e36c91b9fed81d71ff0d"
+    },
+    "affinity_nllb_19.pt": {
+      "decoder_layer": 19,
+      "size_bytes": 66756,
+      "sha256": "834ae5c02e8f06ad9172d9194e9cc4964f2643bd8b7b7c0e9d4ef38649a12236"
+    },
+    "affinity_nllb_23.pt": {
+      "decoder_layer": 23,
+      "size_bytes": 66756,
+      "sha256": "6221d2dffc4ff0bc7efb672d2972787961275156cf702204104f7da165777d08"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "target": "nllb-moe-54b",
+  "dataset": "wmt",
+  "lang": "fr",
+  "methods": ["nocache", "cache", "specdec"],
+  "batch_sizes": [1, 4, 16, 64, 128, 256],
+  "input_len": 128,
+  "output_len": 64,
+  "offload_device": "cpu",
+  "gamma": [10],
+  "num_fixed_experts": [4],
+  "num_cached_experts": [13],
+  "num_batches": 10,
+  "decoding": "greedy",
+  "temperature": 1.0,
+  "top_k": 0,
+  "top_p": 1.0,
+  "seed": 240725,
+  "measure": null
+}
